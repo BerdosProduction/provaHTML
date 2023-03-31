@@ -1,0 +1,9 @@
+
+<INPUT>:
+
+placeholder == mette nome dentro a text input /n
+type        == range(barra spostabile), checkbox(pallino), date, color
+               password, text di default /n
+
+
+
