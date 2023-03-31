@@ -12,7 +12,13 @@
     </body>
     <script language="JavaScript">
         function generatore(){
-            window.open("link2.html",100,100,100,100);
+            var prop = "dialogWidth: 430px; dialogHeight: 280px; center: 1; scroll: 0; help: 1; status: 0;";
+            if (document.all) {
+                window.showModalDialog("mioFile.htm", null, prop);
+            }
+            else {
+                alert("Questa funzione è compatibile solo con MSIE");
+            }
         }
     </script>
     <input type="button" value="premi" onclick=generatore();>
