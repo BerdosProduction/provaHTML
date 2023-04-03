@@ -61,6 +61,7 @@ STYLE:
      -background-color;
      -font-family;
      -border; (solid, spessore, colore)
+     -border-radius; (utilizzabile con 4 valori, partendo da top-left)
 
 LINK:
      -rel="stylesheet"+href="nomefile.css"
@@ -72,6 +73,9 @@ LINK:
 
 C,P,B,M:
        -padding; spazio tra bordo e context, si mette padding-direzione. senza nulla 
-                 regola da tutti e 4 i lati. con i px regoli spessore
-       -margin; spazio tra bordo ed altri elementi. funziona come padding
+                 regola da tutti e 4 i lati. con i px regoli spessore. volendo,
+                 metti tutti argomenti in padding per regolare, senza usare right, bottom
+                 ecc
+       -margin; spazio tra bordo ed altri elementi. funziona come padding.
+
        -text-align;
