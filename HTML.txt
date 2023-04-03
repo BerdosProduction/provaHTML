@@ -53,4 +53,19 @@ FORMS:
              -serve per mettere il campo nome all'elemento collegato
              -for+id == il for nel label, ci scrivi id assegnato all'oggetto
              
-       
+STYLE:
+     -font-size;
+     -font-weight;
+     -font-style;
+     -color;
+     -background-color;
+     -font-family;
+     -border; (solid, spessore, colore)
+LINK:
+     -rel="stylesheet"+href="nomefile.css"
+     -se usi CLASS="nome classe" selezioni elementi
+     -scrivere nel file css:
+        - tag
+        - .classe
+        - #id 
+
