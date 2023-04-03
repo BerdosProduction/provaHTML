@@ -61,6 +61,7 @@ STYLE:
      -background-color;
      -font-family;
      -border; (solid, spessore, colore)
+
 LINK:
      -rel="stylesheet"+href="nomefile.css"
      -se usi CLASS="nome classe" selezioni elementi
@@ -69,3 +70,8 @@ LINK:
         - .classe
         - #id 
 
+C,P,B,M:
+       -padding; spazio tra bordo e context, si mette padding-direzione. senza nulla 
+                 regola da tutti e 4 i lati. con i px regoli spessore
+       -margin; spazio tra bordo ed altri elementi. funziona come padding
+       -text-align;
