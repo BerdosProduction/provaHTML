@@ -1,0 +1,12 @@
+#fratelli{
+    height: 200px;
+    border-radius: 10px 40px 10px 40px;
+}
+#pata{
+    height: 200px;
+    border-radius: 10px 10px 10px 10px;
+}
+h1{
+    text-align: center;
+    border: solid 10px rgb(184, 13, 13);
+}
