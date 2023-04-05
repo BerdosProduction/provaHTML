@@ -1,28 +1,10 @@
-#fratelli{
+#fratelli,#pata,#livia,#vieste,#eat{
     height: 200px;
     border-radius: 10px 40px 10px 40px;
-}
-#pata{
-    height: 200px;
-    border-radius: 10px 10px 10px 10px;
-}
-#eat{
-    height: 200px;
-    border-radius: 10px 10px 10px 10px;
-}
-#vieste{
-    height: 200px;
-    border-radius: 10px 10px 10px 10px;
-}
-#livia{
-    height: 200px;
-    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
 }
 figure{
     width: 20%;
-}
-section{
-    display: inline-block;
 }
 #titolo{
     text-align: center;
