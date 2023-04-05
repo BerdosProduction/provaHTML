@@ -23,3 +23,6 @@
     border: solid 10px red;
     margin: 0 400px 0 400px;
 }
+div{
+    text-align: initial;
+}
