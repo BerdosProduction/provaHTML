@@ -22,8 +22,7 @@ figure{
     width: 20%;
 }
 section{
-    height: 1000px;
-    width: 1000px;
+    display: inline-block;
 }
 #titolo{
     text-align: center;
