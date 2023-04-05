@@ -1,10 +1,9 @@
 #fratelli,#pata,#livia,#vieste,#eat{
     height: 200px;
-    border-radius: 10px 40px 10px 40px;
+    border-radius: 40px 40px 40px 40px;
     
 }
 figure{
-    width: 20%;
     display: inline-block;
 }
 #titolo{
