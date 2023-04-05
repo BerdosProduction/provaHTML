@@ -79,3 +79,6 @@ C,P,B,M:
        -margin; spazio tra bordo ed altri elementi. funziona come padding.
 
        -text-align;
+<span> 
+    Seleziona parte di testo. Puoi usare class, 
+    id per scegliere. Ci puoi mettere styile: "color: colore"
