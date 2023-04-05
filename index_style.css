@@ -15,10 +15,13 @@ ul{
     text-align: center;
 }
 #blocco1{
-    border: solid coral 2px;
+    margin: 0 500 0 500;
+    border: solid black 2px;
     background-color: aquamarine;
+    border-radius: 5px;
 }
 #blocco2{
-    border: solid coral 2px;
-    background-color: rgb(205, 230, 15);
+    border: solid black 2px;
+    background-color: aquamarine;
+    border-radius: 5px;
 }
