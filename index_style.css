@@ -8,6 +8,17 @@ body{
 ol{
     text-align: center;
 }
+li{
+    text-align: center;
+}
 ul{
     text-align: center;
+}
+#blocco1{
+    border: solid coral 2px;
+    background-color: aquamarine;
+}
+#blocco2{
+    border: solid coral 2px;
+    background-color: rgb(205, 230, 15);
 }
