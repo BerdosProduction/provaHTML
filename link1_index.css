@@ -18,6 +18,9 @@
     height: 200px;
     border-radius: 10px 10px 10px 10px;
 }
+figure{
+    width: 20%;
+}
 #titolo{
     text-align: center;
     border: solid 10px red;
