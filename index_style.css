@@ -1,6 +1,9 @@
 #titoletto{
     background-color: aquamarine;
+    border: solid 10 px aquamarine;
     text-align: center;
+    margin: 0 450px 50px 450px;
+    border-radius: 5px;
 }
 body{
     text-align: center;
@@ -15,12 +18,13 @@ ul{
     text-align: center;
 }
 #blocco1{
-    margin: 0 500 0 500;
+    margin: 0 350px 0 350px;
     border: solid black 2px;
     background-color: aquamarine;
     border-radius: 5px;
 }
 #blocco2{
+    margin: 0 300px 0 300px;
     border: solid black 2px;
     background-color: aquamarine;
     border-radius: 5px;
