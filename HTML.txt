@@ -10,16 +10,14 @@ href== si usa per mettere link:
        se in cartella, non metti nulla
 
 <img>:
-
-src == si usa per mettere codice immagine
-alt == si usa per far capire natura immagine, se decorativa o se ha uno scopo
+      src == si usa per mettere codice immagine
+      alt == si usa per far capire natura immagine, se decorativa o se ha uno scopo
 
 <figure>: si usa per raggruppare immagini con il testo/tag ad essa legati
 figcaption == usato per mettere testo come didascalia di immagine
 
 <div>:
-
-role== banner(in cima a pagina), img(per fare capir che è container immagini)
+       role== banner(in cima a pagina), img(per fare capir che è container immagini)
        comment, contentinfo(privacy,contatti,ecc), alert(può cambiare testo)
 
 alternative:

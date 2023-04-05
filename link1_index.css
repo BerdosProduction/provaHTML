@@ -1,27 +1,29 @@
 #fratelli{
     height: 200px;
     border-radius: 10px 40px 10px 40px;
-    width: 20%;
 }
 #pata{
     height: 200px;
     border-radius: 10px 10px 10px 10px;
-    width: 20%;
 }
 #eat{
     height: 200px;
     border-radius: 10px 10px 10px 10px;
-    width: 20%;
 }
 #vieste{
     height: 200px;
     border-radius: 10px 10px 10px 10px;
-    width: 20%;
 }
 #livia{
     height: 200px;
     border-radius: 10px 10px 10px 10px;
+}
+figure{
     width: 20%;
+}
+section{
+    height: 1000px;
+    width: 1000px;
 }
 #titolo{
     text-align: center;
