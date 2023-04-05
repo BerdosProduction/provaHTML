@@ -1,7 +1,6 @@
 #fratelli{
     height: 200px;
     border-radius: 10px 40px 10px 40px;
-    margin: 0 0 0 0;
 }
 #pata{
     height: 200px;
@@ -19,7 +18,8 @@
     height: 200px;
     border-radius: 10px 10px 10px 10px;
 }
-h1{
+#titolo{
     text-align: center;
-    border: solid 10px rgb(184, 13, 13);
+    border: solid 10px red;
+    margin: 0 400px 0 400px;
 }
