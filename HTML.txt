@@ -63,10 +63,11 @@ STYLE:
 
 LINK:
      -rel="stylesheet"+href="nomefile.css"
-     -se usi CLASS="nome classe" selezioni elementi
+     -se usi CLASS:
+              "nome classe" selezioni elementi
      -scrivere nel file css:
         - tag
-        - .classe
+        - .classe (ci puoi mettere piu classi in class="", anche bold o simili)
         - #id 
 
 C,P,B,M:
