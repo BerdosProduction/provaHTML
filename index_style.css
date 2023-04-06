@@ -2,8 +2,9 @@
     background-color: aquamarine;
     border: solid 10 px aquamarine;
     text-align: center;
-    margin: 0 450px 50px 450px;
     border-radius: 5px;
+    display: inline;
+    margin: 0 0 50px 0;
 }
 body{
     text-align: center;
