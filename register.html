@@ -16,25 +16,24 @@
             <label>Cognome:</label>
             <input placeholder="Cognome"></input>
             <br>
-            <button id="resoconto" onclick=res()>So pronto</button>
+            <input type="button" onclick=res() value="So pronto"></input>
             </fieldset>
         </form>
     </footer>
     <div id="resoc">
 
     </div>
-    <script>
+    <script type="text/javascript">
         function res(){
-            alert("entrato");
             var btn1= document.createElement("button");
-            btn.innerHTML("si");
+            btn1.innerHTML("si");
             var btn2= document.createElement("button");
-            btn.innerHTML("no");
+            btn2.innerHTML("no");
             var text= document.getElementById("a");
             text.innerHTML("i dati inseriti sono giusti?");
-            document.getElementById('resoc').appendChild(text);
-            document.getElementById('resoc').appendChild(btn1);
-            document.getElementById('resoc').appendChild(btn2);
+            document.getElementById("resoc").appendChild(text);
+            document.getElementById("resoc").appendChild(btn1);
+            document.getElementById("resoc").appendChild(btn2);
         }
     </script>
 </html>
