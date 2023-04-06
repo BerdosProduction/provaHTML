@@ -23,8 +23,14 @@
             alert("entato");
             var mainDiv = document.getElementById("mainDiv");
             var text= document.createElement("p");
+            var testo= document.createTextNode("i dati sono giusti?");
+            text.appendChild(testo);
             var btn1=document.createElement("button");
             var btn2=document.createElement("button");
+            var testo1= document.createTextNode("SI");
+            btn1.appendChild(testo1);
+            var testo2= document.createTextNode("NO");
+            btn2.appendChild(testo2);
             
             mainDiv.appendChild(text);
             mainDiv.appendChild(btn1);
