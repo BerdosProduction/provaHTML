@@ -22,10 +22,10 @@
         function res(){
             var mainDiv = document.getElementById("mainDiv");
             var text= document.createElement("p");
-            var testo= document.createTextNode("i dati sono giusti?");
+            var testo= document.createTextNode("\nI dati sono giusti?");
             var nome= document.getElementById('nome').value;
             var cognome= document.getElementById('cognome').value;
-            text.append(nome);
+            text.append(nome+("\n"));
             text.append(cognome);
             text.appendChild(testo);
             var btn1=document.createElement("button");
