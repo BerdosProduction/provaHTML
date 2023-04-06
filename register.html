@@ -8,22 +8,25 @@
             <fieldset>
             <legend>Inserisci Dati Identificativi</legend>
             <label>Nome:</label>
-            <input placeholder="Nome"></input>
+            <input id="nome" placeholder="Nome"></input>
             <br>
             <label>Cognome:</label>
-            <input placeholder="Cognome"></input>
+            <input id="cognome" placeholder="Cognome"></input>
             <br>
-            <input type="button" onclick="res()" value="So pronto"></input>
+            <input type="button" id="ready" onclick="res()" value="So pronto"></input>
             </fieldset>
         </form>
     </div>
     <div id="mainDiv"></div>
     <script>
         function res(){
-            alert("entato");
             var mainDiv = document.getElementById("mainDiv");
             var text= document.createElement("p");
             var testo= document.createTextNode("i dati sono giusti?");
+            var nome= document.getElementById('nome').value;
+            var cognome= document.getElementById('cognome').value;
+            text.append(nome);
+            text.append(cognome);
             text.appendChild(testo);
             var btn1=document.createElement("button");
             var btn2=document.createElement("button");
