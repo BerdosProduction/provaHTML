@@ -16,7 +16,7 @@
             <label>Cognome:</label>
             <input placeholder="Cognome"></input>
             <br>
-            <input type="button" onclick=res() value="So pronto"></input>
+            <input type="button" onclick="res()" value="So pronto"></input>
             </fieldset>
         </form>
     </footer>
@@ -25,15 +25,15 @@
     </div>
     <script type="text/javascript">
         function res(){
-            var btn1= document.createElement("button");
+            var text= document.getElementById("p");
+            text.textContent("i dati sono giusti?")
+            document.getElementById("resoc").appendChild(text);
+            /* var btn1= document.createElement("button");
             btn1.innerHTML("si");
             var btn2= document.createElement("button");
             btn2.innerHTML("no");
-            var text= document.getElementById("a");
-            text.innerHTML("i dati inseriti sono giusti?");
-            document.getElementById("resoc").appendChild(text);
             document.getElementById("resoc").appendChild(btn1);
-            document.getElementById("resoc").appendChild(btn2);
+            document.getElementById("resoc").appendChild(btn2);*/
         }
     </script>
 </html>
