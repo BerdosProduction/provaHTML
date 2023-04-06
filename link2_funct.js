@@ -1,0 +1,6 @@
+function changecolor(){
+
+}
+function changedim(){
+    
+}
