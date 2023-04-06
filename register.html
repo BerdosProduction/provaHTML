@@ -17,22 +17,18 @@
             </fieldset>
         </form>
     </div>
-    <div id="resoc">
-
-    </div>
-    <script type="text/javascript">
+    <div id="mainDiv"></div>
+    <script>
         function res(){
             alert("entato");
-            /*var text= document.createElement("p");
-            text.textContent("i dati sono giusti?");
-            document.getElementById("resoc").appendChild(text);*/
-            var btn1= document.createElement("button");
-            btn1.innerHTML("si");
-            document.getElementById("resoc").appendChild(btn1);
-            /*
-            var btn2= document.createElement("button");
-            btn2.innerHTML("no");
-            document.getElementById("resoc").appendChild(btn2);*/
+            var mainDiv = document.getElementById("mainDiv");
+            var text= document.createElement("p");
+            var btn1=document.createElement("button");
+            var btn2=document.createElement("button");
+            
+            mainDiv.appendChild(text);
+            mainDiv.appendChild(btn1);
+            mainDiv.appendChild(btn2);
         }
     </script>
 </html>
