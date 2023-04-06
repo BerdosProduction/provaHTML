@@ -7,17 +7,33 @@
         <br>
     </body>
     <footer>
-    <form>
-        <fieldset>
-        <legend>Inserisci Dati Identificativi</legend>
-        <label>Nome:</label>
-        <input placeholder="Nome"></input>
-        <br>
-        <label>Cognome:</label>
-        <input placeholder="Cognome"></input>
-        <br>
-        <button>So pronto</button>
-        </fieldset>
-    </form>
-</footer>
+        <form>
+            <fieldset>
+            <legend>Inserisci Dati Identificativi</legend>
+            <label>Nome:</label>
+            <input placeholder="Nome"></input>
+            <br>
+            <label>Cognome:</label>
+            <input placeholder="Cognome"></input>
+            <br>
+            <button id="resoconto" onclick="res()">So pronto</button>
+            </fieldset>
+        </form>
+    </footer>
+    <div id="resoc">
+
+    </div>
+    <script>
+        function res(){
+            var btn1= document.createElement("button");
+            btn.innerHTML("si");
+            var btn2= document.createElement("button");
+            btn.innerHTML("no");
+            var text= document.getElementById("a");
+            text.innerHTML("i dati inseriti sono giusti?");
+            document.getElementById('resoc').appendChild(text);
+            document.getElementById('resoc').appendChild(btn1);
+            document.getElementById('resoc').appendChild(btn2);
+        }
+    </script>
 </html>
