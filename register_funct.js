@@ -1,3 +1,4 @@
+var elenco={};
 function res(){
     if (document.getElementById("nome").value=="" ||document.getElementById("cognome").value==""){
         alert("dati non validi, reinserire");
@@ -21,6 +22,11 @@ function res(){
         mainDiv.appendChild(text);
         mainDiv.appendChild(btn1);
         mainDiv.appendChild(btn2);
-    } 
+        elenco.append(bottone1,btn1);
+        elenco.append(bottone2,btn2);
+    }
+    if(document.getElementById(elenco.bottone1.value).onclick()){
+        alert("aaa");
+    }
 }
         

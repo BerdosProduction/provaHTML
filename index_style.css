@@ -1,11 +1,6 @@
 #titoletto{
-    background-color:cornflowerblue;
-    border: solid 10 px cornflowerblue;
     border-radius: 5px;
-    position: absolute;
-    left: 50%;
-    width: 75px;
-    margin-left: -37.5px;
+    text-align: center;
 }
 #blocco1{
     position:absolute;
@@ -28,4 +23,7 @@
     border: solid black 2px;
     background-color: white;
     border-radius: 5px;
+}
+html{
+    background-color:paleturquoise;
 }
