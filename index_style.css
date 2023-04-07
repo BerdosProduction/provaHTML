@@ -1,33 +1,31 @@
 #titoletto{
-    background-color: aquamarine;
-    border: solid 10 px aquamarine;
-    text-align: center;
+    background-color:cornflowerblue;
+    border: solid 10 px cornflowerblue;
     border-radius: 5px;
-    display: inline;
     position: absolute;
     left: 50%;
+    width: 75px;
+    margin-left: -37.5px;
 }
 #blocco1{
     position:absolute;
     width: 150px;
     height: 100px;
-    margin-left: -150px;
+    margin-left: -75px;
     top: 15%;
     left: 50%;
     border: solid black 2px;
-    background-color: aquamarine;
+    background-color: white;
     border-radius: 5px;
-    text-align: center;
 }
 #blocco2{
     position: absolute;
     width: 170px;
     height: 130px;
-    margin-left: -170px;
-    top: 45%;
+    margin-left: -85px;
+    top: 35%;
     left: 50%;
     border: solid black 2px;
-    background-color: aquamarine;
+    background-color: white;
     border-radius: 5px;
-    text-align: center;
 }
