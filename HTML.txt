@@ -81,3 +81,7 @@ C,P,B,M:
 <span> 
     Seleziona parte di testo. Puoi usare class, 
     id per scegliere. Ci puoi mettere styile: "color: colore"
+
+POSITION:
+       -relative: rimane nel normale flow, si sposta rispetto alla poszione di default
+       -absolute: è rispetto alla pagina web, esce dal normale flow
