@@ -19,10 +19,11 @@ function sine(){
     document.getElementById("mainDiv").removeChild(document.getElementById("validità"));
     areat.appendChild(area);
     var trasf=document.createElement("input");
-    trasf.style="button";
+    trasf.type="button";
     trasf.value="Fatto";
+    trasf.id="finito";
+    areat.appendChild(document.createElement("br"));
     areat.appendChild(trasf);
-    
 }
 
 function res(){
