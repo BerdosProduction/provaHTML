@@ -27,11 +27,10 @@ function res(){
         mainDiv.appendChild(text);
         mainDiv.appendChild(btn1);
         mainDiv.appendChild(btn2);
-        
-        document.getElementById('si').addEventListener(MouseEvent,del1());
     }
 }
-function del1(){
+var btn_1=document.getElementById('si');
+btn_1.addEventListener(MouseEvent, function del1(){
     alert("ciao");
-}
+});
         
