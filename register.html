@@ -8,16 +8,20 @@
         <form>
             <p>Vuoi commentare? Bene, dimmi chi sei</p>
             <fieldset id="box">
-            <legend>Inserisci Dati Identificativi</legend>
-            <label>Nome:</label>
-            <input id="nome" placeholder="Nome"></input>
-            <br>
-            <label>Cognome:</label>
-            <input id="cognome" placeholder="Cognome"></input>
-            <br>
-            <input type="button" id="ready" onclick="res()" value="So pronto"></input>
+                <legend>Inserisci Dati Identificativi</legend>
+                <label>Nome:</label>
+                <input id="nome" placeholder="Nome"></input>
+                <br>
+                <label>Cognome:</label>
+                <input id="cognome" placeholder="Cognome"></input>
+                <br>
+                <input type="button" id="ready" onclick="res()" value="So pronto"></input>
+                <br>
+                <div id="mainDiv"></div>
+                <input style="display:none" type="button" id="si" onclick="si()" value="SI"></input>
+                <input style="display:none" type="button" id="no" onclick="no()" value="NO"></input>
+
             </fieldset>
         </form>
     </div>
-    <div id="mainDiv"></div>
 </html>

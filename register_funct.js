@@ -15,19 +15,15 @@ function res(){
         text.append(cognome);
         text.append(document.createElement("br"));
         text.appendChild(testo);
-        var btn1=document.createElement("input");
-        var btn2=document.createElement("input");
-        btn1.id='si';
-        btn2.id='no';
-        btn1.type="button";
-        btn2.type="button";
         mainDiv.appendChild(text);
-        mainDiv.appendChild(btn1);
-        mainDiv.appendChild(btn2);
+        document.getElementById("si").style.display="block";
+        document.getElementById("no").style.display="block";
     }
 }
-var btn_1=document.getElementById('si');
-btn_1.addEventListener("click", function del1(){
+function no(){
+    document.getElementById("si").style.display="none";
+    document.getElementById("no").style.display="none";
+    document.getElementById("ready").disabled=false;
     alert("ciao");
-});
+}
         
