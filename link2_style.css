@@ -1,12 +1,9 @@
 button{
-    border: solid greenyellow;
+    border: solid greenyellow 3px;
     margin: 30px;
 }
-#container{
-    
-}
 #jotaro{
-    border:solid black 5px;
+    border: solid black 5px;
     height: 200px;
     width: 350px;
 }
