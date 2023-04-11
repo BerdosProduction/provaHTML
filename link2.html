@@ -5,13 +5,11 @@
         <link rel="stylesheet" href="link2_style.css">
         <script type="text/javascript" src="link2_funct.js"></script>
     </head>
-    <body>
-        <ul>
-            <li> seleziona range <br> <input id="dimensione" type="range"> </li>
-            <li> colore spreferito <br> <input id="colore" type="color">  </li>
-        </ul>
-        <img src="https://staticg.sportskeeda.com/editor/2022/06/508cd-16557590423635-1920.jpg" id="jotaro">
+    <div id="container">
+        <input id="dimensione" type="range" width="200px"> </input>
+        <input id="colore" type="color"></input>
+        <img src="https://staticg.sportskeeda.com/editor/2022/06/508cd-16557590423635-1920.jpg" id="jotaro" style="border:solid 5px;height:200px;width: 350px;" >
         <br>
-    </body>
-    <input type="button" style="height:20px;width:200px" value="clicca per modificare l'immagine" onclick=changecolor(),changedim()>
+        <input type="button" style="height:20px;width:200px" value="clicca per modificare l'immagine" onclick=changecolor(),changedim()>
+    </div>
 </html>

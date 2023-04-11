@@ -2,8 +2,10 @@ button{
     border: solid greenyellow 3px;
     margin: 30px;
 }
-#jotaro{
+#container{
+    display: flex;
+    flex-direction: column;
     border: solid black 5px;
-    height: 200px;
-    width: 350px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
