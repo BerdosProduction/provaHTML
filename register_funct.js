@@ -19,7 +19,7 @@ function res(){
         var btn2=document.createElement("button");
         btn1.id='si';
         btn2.id='no';
-        btn1.onclick="del1()";
+        
         var testo1= document.createTextNode("SI");
         btn1.appendChild(testo1);
         var testo2= document.createTextNode("NO");
@@ -27,6 +27,8 @@ function res(){
         mainDiv.appendChild(text);
         mainDiv.appendChild(btn1);
         mainDiv.appendChild(btn2);
+        
+        document.getElementById('si').addEventListener(MouseEvent,del1());
     }
 }
 function del1(){
