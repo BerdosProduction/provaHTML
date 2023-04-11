@@ -14,14 +14,15 @@
                 <br>
                 <label>Cognome:</label>
                 <input id="cognome" placeholder="Cognome"></input>
-                <br>
+                <div id="errore" style="height:10px"></div>
                 <input type="button" id="ready" onclick="res()" value="So pronto"></input>
                 <br>
                 <div id="mainDiv"></div>
-                <input style="display:none" type="button" id="si" onclick="si()" value="SI"></input>
-                <input style="display:none" type="button" id="no" onclick="no()" value="NO"></input>
+                <input type="button" id="si" onclick="sine()" value="SI" style="display:none"></input>
+                <input type="button" id="no" onclick="none()" value="NO" style="display:none"></input>
 
             </fieldset>
         </form>
+
     </div>
 </html>
