@@ -4,11 +4,13 @@ function res(){
         alert("dati non validi, reinserire");
     }
     else{
-        var mainDiv = document.getElementById("mainDiv");
+        var mainDiv = document.getElementById('mainDiv');
         var text= document.createElement("p");
         var testo= document.createTextNode(" I dati sono giusti?");
         var nome= document.getElementById('nome').value;
         var cognome= document.getElementById('cognome').value;
+        var bottone= document.getElementById('ready');
+        bottone.disabled=true;
         text.append(nome+(" "));
         text.append(cognome);
         text.append(document.createElement("br"));
@@ -24,7 +26,6 @@ function res(){
         mainDiv.appendChild(btn2);
         elenco.append(bottone1,btn1);
         elenco.append(bottone2,btn2);
-        document.getElementById("ready").disabled =true;
     }
 }
         
