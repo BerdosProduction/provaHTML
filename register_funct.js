@@ -19,11 +19,8 @@ function res(){
         var btn2=document.createElement("input");
         btn1.id='si';
         btn2.id='no';
-        
-        var testo1= document.createTextNode("SI");
-        btn1.appendChild(testo1);
-        var testo2= document.createTextNode("NO");
-        btn2.appendChild(testo2);
+        btn1.type="button";
+        btn2.type="button";
         mainDiv.appendChild(text);
         mainDiv.appendChild(btn1);
         mainDiv.appendChild(btn2);
