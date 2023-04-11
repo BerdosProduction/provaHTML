@@ -1,4 +1,3 @@
-var elenco={};
 function res(){
     if (document.getElementById("nome").value=="" ||document.getElementById("cognome").value==""){
         alert("dati non validi, reinserire");
@@ -10,6 +9,7 @@ function res(){
         var nome= document.getElementById('nome').value;
         var cognome= document.getElementById('cognome').value;
         var bottone= document.getElementById('ready');
+
         bottone.disabled=true;
         text.append(nome+(" "));
         text.append(cognome);
@@ -17,6 +17,8 @@ function res(){
         text.appendChild(testo);
         var btn1=document.createElement("button");
         var btn2=document.createElement("button");
+        btn1.id='si';
+        btn2.id='no';
         var testo1= document.createTextNode("SI");
         btn1.appendChild(testo1);
         var testo2= document.createTextNode("NO");
@@ -24,8 +26,10 @@ function res(){
         mainDiv.appendChild(text);
         mainDiv.appendChild(btn1);
         mainDiv.appendChild(btn2);
-        elenco.append(bottone1,btn1);
-        elenco.append(bottone2,btn2);
     }
+}
+if (document.getElementById('si').onclick()){
+    alert("ciao");
+
 }
         
