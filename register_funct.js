@@ -3,11 +3,20 @@ function none(){
     document.getElementById("si").style.display="none";
     document.getElementById("no").style.display="none";
     document.getElementById("mainDiv").removeChild(document.getElementById("validità"));
+    var errore = document.getElementById('errore');
+    var text= document.createElement("h6");
+    text.style="color:green";
+    text.id="frasina";
+    text.appendChild(document.createTextNode("reinserire i dati con attenzione"));
+    errore.appendChild(text);
 }
 function sine(){
     var area=document.createElement("textarea");
-    area.style="height:200px ; width:200px";
+    area.style="margin-top:30px;height:200px ; width:200px";
     var mainDiv = document.getElementById('areatesto');
+    document.getElementById("si").style.display="none";
+    document.getElementById("no").style.display="none";
+    document.getElementById("mainDiv").removeChild(document.getElementById("validità"));
     mainDiv.appendChild(area);
 }
 
@@ -16,10 +25,14 @@ function res(){
         var errore = document.getElementById('errore');
         var text= document.createElement("h6");
         text.style="color:red";
+        text.id="frasina";
         text.appendChild(document.createTextNode("dati non validi, reinserire"));
         errore.appendChild(text);
     }
     else{
+        if (document.getElementById("errore").hasChildNodes()){
+            document.getElementById("errore").removeChild(document.getElementById("frasina"));
+        }
         var mainDiv = document.getElementById('mainDiv');
         var text= document.createElement("p");
         var testo= document.createTextNode(" I dati sono giusti?");
