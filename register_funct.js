@@ -18,6 +18,11 @@ function sine(){
     document.getElementById("no").style.display="none";
     document.getElementById("mainDiv").removeChild(document.getElementById("validità"));
     areat.appendChild(area);
+    var trasf=document.createElement("input");
+    trasf.style="button";
+    trasf.value="Fatto";
+    areat.appendChild(trasf);
+    
 }
 
 function res(){
