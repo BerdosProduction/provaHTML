@@ -27,3 +27,7 @@
 html{
     background-color:paleturquoise;
 }
+.container{
+    display:flex;
+    flex-direction: row;
+}
