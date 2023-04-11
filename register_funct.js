@@ -30,7 +30,7 @@ function res(){
     }
 }
 var btn_1=document.getElementById('si');
-btn_1.addEventListener(MouseEvent, function del1(){
+btn_1.addEventListener("click", function del1(){
     alert("ciao");
 });
         
