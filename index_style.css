@@ -3,23 +3,13 @@
     text-align: center;
 }
 #blocco1{
-    position:absolute;
     width: 150px;
-    height: 100px;
-    margin-left: -75px;
-    top: 15%;
-    left: 50%;
     border: solid black 2px;
     background-color: white;
     border-radius: 5px;
 }
 #blocco2{
-    position: absolute;
-    width: 170px;
-    height: 130px;
-    margin-left: -85px;
-    top: 35%;
-    left: 50%;
+    width: 150px;
     border: solid black 2px;
     background-color: white;
     border-radius: 5px;
