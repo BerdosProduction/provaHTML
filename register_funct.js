@@ -5,7 +5,7 @@ function none(){
     document.getElementById("mainDiv").removeChild(document.getElementById("validità"));
     var errore = document.getElementById('errore');
     var text= document.createElement("h6");
-    text.style="color:green";
+    text.style="color:green; margin: 5 0 10 0";
     text.id="frasina";
     text.appendChild(document.createTextNode("reinserire i dati con attenzione"));
     errore.appendChild(text);
@@ -22,6 +22,7 @@ function sine(){
     trasf.type="button";
     trasf.value="Fatto";
     trasf.id="finito";
+    trasf.style="margin-top:10px";
     areat.appendChild(document.createElement("br"));
     areat.appendChild(trasf);
 }
@@ -31,7 +32,7 @@ function res(){
         var errore = document.getElementById('errore');
         errore.innerHTML="";
         var text= document.createElement("h6");
-        text.style="color:red";
+        text.style="color:red; margin: 5 0 10 0";
         text.id="frasina";
         text.appendChild(document.createTextNode("dati non validi, reinserire"));
         errore.appendChild(text);
