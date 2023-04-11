@@ -24,7 +24,7 @@ function res(){
         mainDiv.appendChild(btn2);
         elenco.append(bottone1,btn1);
         elenco.append(bottone2,btn2);
-        document.getElementById("ready").setAttribute("disabled");
+        document.getElementById("ready").disabled =true;
     }
 }
         
