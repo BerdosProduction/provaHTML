@@ -15,8 +15,8 @@ function res(){
         text.append(cognome);
         text.append(document.createElement("br"));
         text.appendChild(testo);
-        var btn1=document.createElement("button");
-        var btn2=document.createElement("button");
+        var btn1=document.createElement("input");
+        var btn2=document.createElement("input");
         btn1.id='si';
         btn2.id='no';
         
