@@ -85,3 +85,14 @@ C,P,B,M:
 POSITION:
        -relative: rimane nel normale flow, si sposta rispetto alla poszione di default
        -absolute: è rispetto alla pagina web, esce dal normale flow
+       -z-index: serve per gestire sovrapposizione oggetti(si usa con absolute)
+
+FLEXBOXS:
+       - ricorda main e cross axis
+       - Justify content= scegli da dove far partire elementi e come 
+                          disporli (start, end, around, between, center)
+       - align-items    = serve per gestire allineamento su cross axis
+       - flex-wrap      = gestisce elemetni in caso di fuoriuscita (nowrap,
+                          wrap, reverse-wrap)
+       - alig-content   = stesso funzionamento di altri due, serve per gestire
+                          gruppi di elementi
